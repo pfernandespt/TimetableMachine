@@ -16,7 +16,7 @@ Para fins de demonstração existe neste repositório um exemplo de ficheiros ge
 Para poder visualizar basta fazer o download da pasta [html](html) e abrir o ficheiro `page.html`.
 
 Página HTML:
-![pagina html](
+![html_page](html/page.html)
 
 ## Objetivos
  - Automatização do processo de obtenção dos dados dos horários
