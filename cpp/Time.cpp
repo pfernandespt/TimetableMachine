@@ -5,6 +5,7 @@
 #include "Time.h"
 
 #include <utility>
+#include <algorithm>
 
 Time::Time() {
     hours_ = 0;

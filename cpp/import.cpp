@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <algorithm>
 #include "RawData.h"
 
 #define DEFAULT_FILENAME "..\\horarios.html" //used when default keyword is inputted
@@ -109,7 +110,7 @@ int main() {
 
     sort(content_table.begin(), content_table.end());
 
-    file.open("..\\data.csv", ios::out);
+    file.open("data.csv", ios::out);
     if (!file.is_open()) {
         cout << "  -> Can't create content file..." << endl;
     } else {
